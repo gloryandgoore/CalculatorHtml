@@ -1,0 +1,131 @@
+body {
+    background-image: url(https://images.pexels.com/photos/6256258/pexels-photo-6256258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #fefae0;
+    font-family: Impact, serif;
+  }
+  
+  
+  h1, h2, p {
+    text-align: center;
+    color: #fefae0;
+
+  }
+ 
+
+  .calc {
+   width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+    text-align: center;
+
+  }
+  #display {
+    border: none;
+    background: white;
+    border-radius: 30px;
+    width: 225px;
+    font-size: 30;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    height: 40px;
+    margin: auto;
+    border: 2px solid white;
+    color: black;
+  }
+  .btn {
+    width: 55px;
+    height: 55px;
+    padding-top: -1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+  }
+  #zero {
+    width: 55px;
+    height: 55px;
+    padding-top: -1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+  }
+  .opBtn {
+    width: 55px;
+    height: 55px;
+    padding-top: -1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+  }
+
+  .opBtn:hover, #zero:hover, .btn:hover {
+   background: teal;
+  }
+
+  .container {
+    width: 80%;
+    /* background-color: #606c38; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  
+  hr {
+    height: 2px;
+    background-color: #0a9396;
+    border-color: #0a9396;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #fefae0;
+    font-size: larger;
+  }
+  
+  a:visited {
+    color: #fefae0;
+    
+  }
+  
+  a:hover {
+    color: #0a9396;
+  }
+  
+  a:active {
+    color: #0a9396;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <h1>CALCULATOR</h1>
+        <hr>
+        <section>
+            <form name="formC" class="calc" action="index.html" method="post">
+          <input type="text" id="display" name="result"></input>
+          <br></br>
+          <input type="button" value="C" class="btn" onclick="formC.result.value+=' '">
+          <input type="button" value="Del" class="btn" onclick="formC.result.value=formC.result.value.substring(0, formC.result.value.length*1-1)">
+          <input type="button" value="00" class="btn" onclick="formC.result.value+='00'">
+          <input type="button" value="/" class="opBtn" onclick="formC.result.value+='/'">
+          <br></br>
+          <input type="button" value="7" class="btn" onclick="formC.result.value+='7'">
+          <input type="button" value="8" class="btn" onclick="formC.result.value+='8'">
+          <input type="button" value="9" class="btn" onclick="formC.result.value+='9'">
+          <input type="button" value="*" class="opBtn" onclick="formC.result.value+='*'">
+          <br></br>
+
+          <input type="button" value="4" class="btn" onclick="formC.result.value+='4'">
+          <input type="button" value="5" class="btn" onclick="formC.result.value+='5'">
+          <input type="button" value="6" class="btn" onclick="formC.result.value+='6'">
+          <input type="button" value="-" class="opBtn" onclick="formC.result.value+='-'">
+          <br></br>
+
+          <input type="button" value="1" class="btn" onclick="formC.result.value+='1'">
+          <input type="button" value="2" class="btn" onclick="formC.result.value+='2'">
+          <input type="button" value="3" class="btn" onclick="formC.result.value+='3'">
+          <input type="button" value="+" class="opBtn" onclick="formC.result.value+='+'">
+          <br></br>
+
+          <input type="button" value="0" id="zero" onclick="formC.result.value+='0'">
+          <input type="button" value="." class="btn" onclick="formC.result.value+='.'">
+          <input type="button" value="=" class="opBtn" onclick="formC.result.value=eval(formC.result.value)">
+
+        </form>
+        </section>
+       
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://github.com/gloryandgoore" target="_blank">Visit My Github</a>
+        </p>
+        <p class="address">TORONTO, ON</p>
+      </footer>
+    </div>
+  </body>
+</html>
